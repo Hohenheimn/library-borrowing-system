@@ -10,11 +10,11 @@ step 7: can update books if its submitted,
 step 8: can see all his borrowed books history, display name, date borrowed, date returned
 
 ADMIN POV
-step 1: CRUD of authors (Name, Description)
-step 2: CRUD of category (Name, Description)
-step 3: CRUD of books (Name, AuthorId, CategoryId, Description, Quantity)
-step 4: Can see list of books (Name, Author, Cateogry, Description, Quantity, Available Quantity)
-step 5: Can view book
-step 6: Can see the history of list users who borrowed (Returned, Borrowed)
+step 1: CRUD of authors (Name, Description) (AUTHORS PAGE)
+step 2: CRUD of category (Name, Description) (CATEGORY PAGE)
+step 3: CRUD of books (Name, AuthorId, CategoryId, Description, Quantity) (BOOK PAGE)
+step 4: Can see list of books (Name, Author, Cateogry, Description, Quantity, Available Quantity) (BOOK PAGE)
+step 5: Can view book (BOOK PAGE)
+step 6: Can see the history of list users who borrowed (Returned, Borrowed) (BOOK PAGE)
 
 
