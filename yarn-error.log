@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add cors
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\jomti\AppData\Local\Microsoft\WindowsApps;;C:\Users\jomti\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jomti\AppData\Roaming\npm;C:\Users\jomti\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\jomti\OneDrive\Desktop\WORKSPACE\LIBRARY-BORROWING-APP\server\node_modules\prisma\engines\5a9203d0590c951969e85a7d07215503f4672eb9\query_engine-windows.dll.node'
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/express": "^4.17.21",
+      "nodemon": "^3.1.0",
+      "prisma": "^5.10.2",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.3.3"
+    },
+    "dependencies": {
+      "@prisma/client": "^5.10.2",
+      "dotenv": "^16.4.5",
+      "express": "^4.18.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
